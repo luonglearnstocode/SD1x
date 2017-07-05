@@ -75,4 +75,5 @@ public class Squarelotron {
 			System.out.println();
 		}
 	}
+	
 }

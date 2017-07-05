@@ -1,0 +1,227 @@
+movie_name	critic_score
+Original Sin	12
+Assassins	16
+Wild Wild West	17
+Lara Croft Tomb Raider	24
+Bone Collector	28
+I am Sam	34
+Cobra	35
+National Treasure	35
+Species	35
+The Time Traveler's Wife	37
+Hannibal	39
+Octopussy	42
+Planet of the Apes	45
+Bruce Almighty	48
+We are Marshall	49
+Meet Joe Black	51
+Shallow Hal	51
+The World is not Enough	51
+Bounce	52
+Notebook	52
+Out of Africa	52
+Troy	54
+Top Gun	54
+Mamma Mia	54
+Rambo	55
+American Wedding	55
+Mr & Mrs Smith	59
+W	59
+The Edge	60
+Mission Impossible	61
+Pretty Woman	62
+Proof	62
+Desperado	62
+Love Actually	63
+Contact	63
+Demolition Man	64
+An Affair to Remember	64
+Me-Myself & Irene	65
+Karate Kid	66
+Pursuit of Happyness	67
+American Psycho	67
+Unbreakable	68
+You've Got Mail	69
+Hitch	69
+Glory	69
+Les Miserables	70
+Men in Black	70
+The Thomas Crown Affair	70
+Meet the Parents	70
+Forrest Gump	71
+The Fifth Element	71
+Enemy of the State	71
+Going My Way	71
+Sleepless in Seattle	72
+Italian Job	73
+Sleepers	74
+A Beautiful Mind	75
+Wedding Crashers	75
+The Devil Wears Prada	75
+Julie and Julia	75
+Gigi	75
+The Avengers	75
+Crash	75
+Gladiator	76
+Frida	76
+Invictus	76
+Hamlet	76
+Gentleman's Agreement	76
+Philadelphia	77
+The Mask	77
+The Machinist	77
+Doubt	77
+Mighty Aphrodite	77
+The Virgin Queen	77
+The King and I	78
+Sin City	78
+Braveheart	78
+Blind Side	78
+Seven	79
+The Pirates of Caribbean	79
+The Hangover	79
+Sophie's Choice	79
+Bus Stop	79
+Cinderella Man	80
+American Gangster	80
+The French Lieutenant's Woman	80
+The Untouchables	80
+A Man For All Seasons	80
+Star Wars	80
+Hud	80
+High Society	80
+The Big Lebowski	80
+Few Good Men	81
+The Hours	81
+Last Tango in Paris	81
+Goodbye Mr Chips	81
+Driving Miss Daisy	81
+Dances with Wolves	81
+Oceans Eleven	82
+Die Hard	82
+GoldenEye	82
+Mogambo	82
+Finding Neverland	83
+The Mask of Zorro	83
+Bourne Identity	83
+Mean Girls	83
+The Hunger Games	84
+Lethal Weapon	84
+Scarface	84
+Jerry Maguire	85
+The Sixth Sense	85
+Sound of Music	85
+JFK	85
+My Cousin Vinny	85
+As Good As it Gets	86
+Mystic River	87
+X Men: First Class	87
+Gandhi	87
+Field of Dreams	87
+Titanic	88
+The Dark Knight	88
+Kramer vs. Kramer	88
+Dial M for Murder	88
+Scent of a Woman	88
+Ted	88
+Terms of Endearment	88
+Ben-Hur	88
+What's Eating Gilbert Grape	89
+Ali	89
+Leaving Las Vegas	89
+Three Musketeers	89
+From Here to Eternity	89
+How Green Was My Valley	89
+Rain Man	90
+MASH	90
+The Lion In Winter	90
+Edward Scissorhands	91
+The Departed	91
+The Fighter	91
+Departed	91
+Sabrina	91
+Mrs Miniver	91
+Million Dollar Baby	91
+The Last Emperor	91
+Mrs. Miniver	91
+Shakespeare in Love	92
+Rocky	92
+Moonstruck	92
+Silver Linings Playbook	92
+To Sir With Love	92
+The Sting	92
+Ordinary People	92
+Road to Morocco	92
+Eternal Sunshine of the Spotless Mind	93
+Enchanted	93
+Midnight in Paris	93
+The Deer Hunter	93
+Superman	93
+The Apartment	93
+American Hustle	93
+Speed	93
+Bourne Ultimatum	94
+Pulp Fiction	94
+Milk	94
+In the Heat of the Night	94
+For a Few Dollars More	94
+Silence of the Lambs	94
+West Side Story	94
+The Bridge on The River Kwai	94
+Mr Smith Goes To Washington	94
+To Kill a Mockingbird	94
+No Country for Old Men	94
+Apollo 13	95
+Gone With The Wind	95
+Unforgiven	95
+Dirty Harry	95
+Escape From Alcatraz	95
+The Accused	95
+My Fair Lady	95
+Guns of Navarone	95
+The Lord of the Rings: The Return of the King	95
+Amadeus	95
+Catch Me If You Can	96
+Big Sleep	96
+High Noon	96
+An American In Paris	96
+Some Like It Hot	96
+Double Indemnity	96
+The Stranger	96
+From Russia With Love	96
+Argo	96
+Goodfellas	96
+Good Will Hunting	97
+Casablanca	97
+Dog Day Afternoon	97
+Gentlemen Prefer Blondes	97
+Schindler's List	97
+You Can't Take It With You	97
+The Hurt Locker	97
+It Happened One Night	98
+The French Connection	98
+Roman Holiday	98
+Annie Hall	98
+Patton	98
+The Godfather Part II	99
+Dr Strangelove	99
+Lawrence of Arabia	99
+Maltese Falcon	100
+Rear Window	100
+Lilies of the Field	100
+The Godfather	100
+On the Waterfront	100
+Singin in the Rain	100
+The Odd Couple	100
+Mary Poppins	100
+Kind Hearts and Coronets	100
+Cool Hand Luke	100
+All About Eve	100
+How to Steal a Million	100
+The Philadelphia Story	100
+Rebecca	100
+The Wrestler	98
+Inception	86
+The Imitation Game	90
+Juno	94
+Iron Man 2	72
