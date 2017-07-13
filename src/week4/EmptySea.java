@@ -27,7 +27,7 @@ public class EmptySea extends Ship {
 	
 	@Override
 	public String toString() {
-		return ".";
+		return this.getHit()[0] == true ? "-" : ".";
 	}
 	
 }

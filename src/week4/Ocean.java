@@ -94,12 +94,16 @@ public class Ocean {
 				if (!ships[i][j].wasShootAt(i, j)) { // never been fired
 					sb.append(".");
 				} else {
-					if (!isOccupied(i, j)) { // fired, but nothing there
-						sb.append("-");
-					} else {
-						sb.append(ships[i][j].toString());
-					}
+					sb.append(ships[i][j].toString());
+//					if (!isOccupied(i, j)) { // fired, but nothing there
+//						sb.append("-");
+//					} else {
+//						sb.append(ships[i][j].toString());
+//					}
 				}
+				
+
+				
 				sb.append("  ");
 			}
 			sb.append("\n");
