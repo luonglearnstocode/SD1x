@@ -11,6 +11,6 @@ public class BattleCruiser extends Ship {
 	
 	@Override
 	public String getShipType() {
-		return "battleCruiser";
+		return "battlecruiser";
 	}
 }

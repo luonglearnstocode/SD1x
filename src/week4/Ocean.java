@@ -59,12 +59,12 @@ public class Ocean {
 	public boolean shootAt(int row, int column) {
 		this.shotsFired++;
 		if (isOccupied(row, column)) {
-			hitCount++;
 			if (ships[row][column].shootAt(row, column)) {
 				if (ships[row][column].isSunk()) {
 					System.out.println("You just sunk a " + ships[row][column].getShipType());
 					shipsSunk++;
 				}
+				hitCount++;
 				return true;
 			}
 			return false;
@@ -75,6 +75,10 @@ public class Ocean {
 	}
 	
 	public void print() {
+		System.out.println(toString());
+	}
+	
+	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		sb.append(" ");
 		for (int i = 0; i < 20; i++) {
@@ -100,7 +104,7 @@ public class Ocean {
 			}
 			sb.append("\n");
 		}
-		System.out.println(sb.toString());
+		return sb.toString();
 	}
 
 	public Ship[][] getShipArray() {

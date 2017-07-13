@@ -17,8 +17,8 @@ public class BattleshipGame {
 			System.out.println();
 			ocean.print();
 			
-//			for (int i = 0; i < 20; i++) {
-//				for (int j = 0; j < 20; j++) {
+//			for (int i = 0; i < 10; i++) {
+//				for (int j = 0; j < 10; j++) {
 //					System.out.println(i + " " + j);
 //					ocean.shootAt(i, j);
 //					ocean.print();
