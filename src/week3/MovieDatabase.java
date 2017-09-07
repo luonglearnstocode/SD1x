@@ -13,6 +13,10 @@ public class MovieDatabase {
 	private ArrayList<Movie> movieList;
 	private ArrayList<Actor> actorList;
 	
+	/**
+	 * a constructor that just creates a new movieList and a new actorList. 
+	 * At the time of construction, both of these lists will be empty.
+	 */
 	public MovieDatabase() {
 		movieList = new ArrayList<>();
 		actorList = new ArrayList<>();
@@ -26,6 +30,12 @@ public class MovieDatabase {
 		return this.actorList;
 	}
 	
+	/**
+	 * This method takes in the name of a movie that is not currently in the database along with a list of actors for that movie. 
+	 * If the movie is already in the database, your code ignores this request (this specification is an oversimplification). 
+	 * If the movie is a new movie, a movie object is created and added to the movieList. 
+	 * If any of the actors happen to be new, they will be added to the actorList.
+	 */
 	public void addMovie(String name, String[] actors) {
 		Movie newMovie = new Movie(name);
 		if (!movieList.contains(newMovie)) {
@@ -45,12 +55,20 @@ public class MovieDatabase {
 		}
 	}
 	
+	/**
+	 * Add a rating for this movie. 
+	 * Assume that the name argument will definitely be a name that is currently in the database.
+	 */
 	public void addRating(String name, double rating) {
 		if (movieList.indexOf(new Movie(name)) != -1) {
 			movieList.get(movieList.indexOf(new Movie(name))).setRating(rating);
 		}
 	}
 	
+	/**
+	 * Overwrite the current rating of a movie with this new rating. 
+	 * Assume that the name argument will definitely be a name that is currently in the database.
+	 */
 	public void updateRating(String name, double newRating) {
 		movieList.get(movieList.indexOf(new Movie(name))).setRating(newRating);
 	}
@@ -70,16 +88,30 @@ public class MovieDatabase {
 		}
 	}
 	
+	/**
+	 * Returns the name of the actor that has the best average rating for their movies.
+	 * In the case of a tie, return any one of the best movies.
+	 */
 	public String getBestMovie() {
 		Collections.sort(movieList);
 		return movieList.get(movieList.size() - 1).getName();
 	}
 	
+	/**
+	 * Returns the name of the movie with the highest rating.
+	 * In the case of a tie, return any one of the best actors.
+	 */
 	public String getBestActor() {
 		Collections.sort(actorList);
 		return actorList.get(actorList.size() - 1).getName();
 	}
 	
+	/**
+	 * Create a new instance of a movieDatabase.
+	 * Add all the movies in the file movies.txt.
+	 * Go through the ratings of the movies in the file ratings.txt and add the ratings for the movies.
+	 * Call the methods that you created and print out the name of the best actor and the name of the highest rated movie.
+	 */
 	public static void main(String[] args) throws FileNotFoundException {
 		MovieDatabase mdb = new MovieDatabase();
 //		String[] actors = new String[] {"a", "b", "c"};
