@@ -3,11 +3,15 @@ package week4;
 import java.util.Random;
 
 public class Ocean {
-	private Ship[][] ships = new Ship[20][20];
-	private int shotsFired;
-	private int hitCount;
-	private int shipsSunk;
+	private Ship[][] ships = new Ship[20][20]; // Used to quickly determine which ship is in any given location.
+	private int shotsFired; // The total number of shots fired by the user.
+	private int hitCount; // The number of times a shot hit a ship. If the user shoots the same part of a ship more than once, every hit is counted, even though the additional ”hits” don’t do the user any good.
+	private int shipsSunk; // The number of ships sunk. Remember that you have a total of 13 ships.       
 	
+	/*
+	 * Creates an ”empty” ocean (fills the ships array with a bunch of EmptySea instances).
+	 * Also initializes any game variables, such as how many shots have been fired.
+	 */
 	public Ocean() {
 		shotsFired = 0; hitCount = 0; shipsSunk = 0;
 		for (int i = 0; i < 20; i++) {
@@ -18,6 +22,10 @@ public class Ocean {
 		}
 	}
 	
+	/*
+	 * Place all randomly on the (initially empty) ocean. 
+	 * Place larger ships before smaller ones, or you may end up with no legal place to put a large ship. 
+	 */
 	public void placeAllShipsRandomly() {
 		Random random = new Random();
 //		random.setSeed(10);
@@ -52,10 +60,19 @@ public class Ocean {
 		}
 	}
 	
+	/*
+	 * Returns true if the given location contains a ship, false if it does not.
+	 */
 	public boolean isOccupied(int row, int column) {
 		return !ships[row][column].getShipType().equals("empty");
 	}
 	
+	/*
+	 * Returns true if the given location contains a ”real” ship, still afloat, (not an EmptySea), false if it does not. 
+	 * In addition, this method updates the number of shots that have been fired, and the number of hits. 
+	 * Note: If a location contains a ”real” ship, shootAt should return true every time the user shoots at that same location. 
+	 * Once a ship has been ”sunk”, additional shots at its location should return false.
+	 */
 	public boolean shootAt(int row, int column) {
 		this.shotsFired++;
 		if (isOccupied(row, column)) {
@@ -74,6 +91,15 @@ public class Ocean {
 		return false;
 	}
 	
+	/*
+	 * Prints the ocean. To aid the user, row numbers should be displayed along the left edge of the array, and column numbers should be displayed along the top. 
+	 * Numbers should be 00 to 19, not 1 to 20.
+	 * The top left corner square should be 0, 0.
+	 * Use ’S’ to indicate a location that you have fired upon and hit a (real) ship, 
+	 * ’-’ to indicate a location that you have fired upon and found nothing there, 
+	 * ’x’ to indicate a location containing a sunken ship,
+	 * and ’.’ (a period) to indicate a location that you have never fired upon.
+	 */
 	public void print() {
 		System.out.println(toString());
 	}
@@ -110,7 +136,12 @@ public class Ocean {
 		}
 		return sb.toString();
 	}
-
+	
+	/*
+	 * Returns the 20x20 array of ships. 
+	 * The methods in the Ship class that take an Ocean parameter really need to be able to look at the contents of this array; 
+	 * the placeShipAt method even needs to modify it. 
+	 */
 	public Ship[][] getShipArray() {
 		return ships;
 	}
@@ -118,19 +149,31 @@ public class Ocean {
 	public void setShips(Ship[][] ships) {
 		this.ships = ships;
 	}
-
+	
+	/*
+	 * Returns the number of shots fired (in this game).
+	 */
 	public int getShotsFired() {
 		return shotsFired;
 	}
 
+	/*
+	 * Returns the number of hits recorded (in this game). All hits are counted, not just the first time a given square is hit.
+	 */
 	public int getHitCount() {
 		return hitCount;
 	}
 
+	/*
+	 * Returns the number of ships sunk (in this game).
+	 */
 	public int getShipsSunk() {
 		return shipsSunk;
 	}
 	
+	/*
+	 * Returns true if all ships have been sunk, otherwise false.
+	 */
 	public boolean isGameOver() {
 		return shipsSunk == 13;
 	}
