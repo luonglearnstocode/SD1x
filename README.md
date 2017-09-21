@@ -6,6 +6,6 @@ In this assignment, we will practice test driven development. This assignment de
 * [Homework Assignment 3: Movie Database](https://courses.edx.org/courses/course-v1:PennX+SD1x+2T2017/courseware/fdab6783c1f44d0f8d5ed1904d3035b8/bcc139ca21134a128f0a76d6289362cb/?activate_block_id=block-v1%3APennX%2BSD1x%2B2T2017%2Btype%40sequential%2Bblock%40bcc139ca21134a128f0a76d6289362cb)  
 In this assignment we will use a few classes to simulate the idea of a movie database. 
 * [Homework Assignment 4: Battleship](https://courses.edx.org/courses/course-v1:PennX+SD1x+2T2017/courseware/5a08e394537c4bd5bbe8a2f69e0596e7/c9fb56c0dd99476b9e03c4fc78b67e22/?activate_block_id=block-v1%3APennX%2BSD1x%2B2T2017%2Btype%40sequential%2Bblock%40c9fb56c0dd99476b9e03c4fc78b67e22)  
-In this assignment, we will build a modified version of the classic game Battleship. We will add a few more pieces and play it on a larger board. The design of the classes in this game is similar to an assignment used by Dr. David Matuszek at the University of Pennsylvania.
-
+In this assignment, we will build a modified version of the classic game Battleship. We will add a few more pieces and play it on a larger board. The design of the classes in this game is similar to an assignment used by Dr. David Matuszek at the University of Pennsylvania.  
+![Course progress](/SD1xProgress.png?raw=true "SD1x Course progress")
 
